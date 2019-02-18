@@ -15,7 +15,7 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-- Bulleted
+- <img src="http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png">
 - List
 
 1. Numbered
