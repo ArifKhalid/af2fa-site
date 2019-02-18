@@ -95,7 +95,8 @@
  <body>
 
 	 <div class="wrapper">
-	 	<div class="box header">Header</div>
+	 	<div class="box header">My List Tutorial</div>
+		<!-- Write your comments here -->
 		<div class="box sidebar">Sidebar</div>
 		<div class="box sidebar2">Sidebar 2</div>
 		<div class="box content">Content
