@@ -42,14 +42,14 @@
 </head>
 <body>
 
-<h2>List View or Grid View</h2>
+<h2>My List Tutorial</h2>
 
-<p>Click on a button to choose list view or grid view.</p>
+<p>Choose what you want to learn.</p>
 
-<div id="btnContainer">
+<!-- <div id="btnContainer">
   <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
   <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-</div>
+</div> -->
 <br>
 
 <div class="row">
@@ -88,12 +88,12 @@ function listView() {
   }
 }
 
-// Grid View
-function gridView() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "50%";
-  }
-}
+// // Grid View
+// function gridView() {
+//   for (i = 0; i < elements.length; i++) {
+//     elements[i].style.width = "50%";
+//   }
+// }
 
 /* Optional: Add active class to the current button (highlight it) */
 var container = document.getElementById("btnContainer");
@@ -109,3 +109,4 @@ for (var i = 0; i < btns.length; i++) {
 
 </body>
 </html>
+
