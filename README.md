@@ -4,6 +4,7 @@ You can use the [editor on GitHub](https://github.com/ArifKhalid/af2fa-site/edit
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<img src="http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png">
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
