@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to My List Tutorial
 
 You can use the [editor on GitHub](https://github.com/ArifKhalid/af2fa-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
