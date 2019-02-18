@@ -11,7 +11,7 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -98,7 +98,7 @@ function listView() {
 /* Optional: Add active class to the current button (highlight it) */
 var container = document.getElementById("btnContainer");
 // var btns = container.getElementsByClassName("btn");
-var btns = listView.getElementsByClassName("btn");
+var btns = container.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
