@@ -1,38 +1,105 @@
-## Welcome to My List Tutorial
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 13</title>
+    <meta charset="utf-8">
+    <style>
+	body {
+		margin: 40px;
+	}
 
-You can use the [editor on GitHub](https://github.com/ArifKhalid/af2fa-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+	.sidebar {
+		grid-area: sidebar;
+	}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	.sidebar2 {
+		grid-area: sidebar2;
+	}
 
-<img src="http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png">
-### Markdown
+	.content {
+		grid-area: content;
+	}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	.header {
+		grid-area: header;
+	}
 
-```markdown
-Syntax highlighted code block
+	.footer {
+		grid-area: footer;
+	}
 
-# Header 1
-## Header 2
-### Header 3
+	.wrapper {
+		background-color: #fff;
+		color: #444;
+	}
 
-- <img src="http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png">
-- List
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "sidebar"
+     "content"
+     "sidebar2"
+     "footer"
+  }
 
-1. Numbered
-2. List
+	@media only screen and (min-width: 500px)  {
+	.wrapper {
 
-**Bold** and _Italic_ and `Code` text
+		grid-template-columns: 20% auto;
+		grid-template-areas:
+    "header   header"
+		"sidebar  content"
+		"sidebar2 sidebar2"
+		"footer   footer";
+	}
+	}
 
-[Link](url) and ![Image](http://ilmukomputer.org/wp-content/uploads/2015/06/Capture5.png)
-```
+	@media only screen and (min-width: 600px)   {
+		.wrapper {
+      grid-gap: 20px;
+			grid-template-columns: 120px auto 120px;
+			grid-template-areas:
+      "header  header  header"
+			"sidebar content sidebar2"
+			"footer  footer  footer";
+			max-width: 600px;
+		}
+	}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	.box {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+		font-size: 150%;
 
-### Jekyll Themes
+	}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ArifKhalid/af2fa-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	.header, .footer {
+		background-color: #999;
+	}
 
-### Support or Contact
+	.sidebar2 {
+		background-color: #ccc;
+		color: #444;
+	}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+   </style>
+</head>
+
+ <body>
+
+	 <div class="wrapper">
+	 	<div class="box header">Header</div>
+		<div class="box sidebar">Sidebar</div>
+		<div class="box sidebar2">Sidebar 2</div>
+		<div class="box content">Content
+			<br /> More content than we had before so this column is now quite tall.</div>
+		<div class="box footer">Footer</div>
+	</div>
+</body>
+</html>
